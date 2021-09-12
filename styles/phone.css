@@ -1,0 +1,200 @@
+#navbar {
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    position: static;
+    justify-content: center;
+
+}
+
+.icon {
+    justify-content: center;
+    width: 100%;
+    font-family: 'Style Script', cursive;
+    font-size: x-large;
+}
+
+.links {
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+@media(max-width:426px) {
+
+    .social {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+/* HOME */
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+
+}
+
+#home img {
+    width: 100%;
+    padding: 25px;
+    background: rgb(236, 236, 236);
+}
+
+#home .intro {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 10px 40px 40px 40px;
+}
+
+
+/* ARTICLES */
+#articles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+
+@media(max-width:426px) {
+    .subarticle {
+        display: none;
+        visibility: hidden;
+    }
+
+    .subarticle-mob {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        top: -60px;
+        left: 20px;
+
+
+    }
+
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0;
+
+    }
+
+
+    .article img {
+        width: 100%;
+    }
+
+    /* BLOGS */
+
+
+    #adblog-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+
+
+    .allblogs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .react img {
+        margin-right: 10px;
+
+    }
+
+
+    .reactleft {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .reactleft img {
+        width: 8px;
+    }
+
+    .seen {
+
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    .com {
+        display: flex;
+    }
+
+    .reactright {
+        display: flex;
+    }
+
+    /* ADS */
+
+
+
+
+    #ads {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .imagead1 {
+        width: 100%;
+    }
+
+    .ad {
+        background-color: white;
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+        margin: 30px 15px 15px 15px;
+    }
+
+
+
+
+    /* FOOTER */
+
+
+    .social-mobview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 10px;
+    }
+
+    .social-mobview img {
+        width: 15px;
+        height: 15px;
+    }
