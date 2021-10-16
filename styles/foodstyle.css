@@ -123,6 +123,7 @@ h3 {
 }
 
 #home img {
+    
     width: 50%;
 
 }
@@ -146,8 +147,7 @@ h3 {
 #articles {
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
+justify-content: center;}
 
 .subarticle {
     display: flex;
@@ -359,7 +359,7 @@ h3 {
     margin-top: 20px;
 }
 
-@media(min-width:426px) {
+@media(min-width:651px) {
     .social-mobview {
         display: none;
         visibility: hidden;
