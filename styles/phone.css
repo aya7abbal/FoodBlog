@@ -5,7 +5,7 @@ body {
 
 #navbar {
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: rgba(255, 255, 255, 1);
     justify-content: center;
 
@@ -24,8 +24,8 @@ body {
 .links {
     justify-content: center;
     list-style: none;
-    width: 100%;
-    padding-top: 10px;
+width: 90%; 
+   padding-top: 10px;
     margin: auto;
 
 }
@@ -52,7 +52,7 @@ body {
 }
 
 #home img {
-    margin-top: 110px;
+    margin-top: 20px;
     width: 100%;
     background: rgb(236, 236, 236);
 }
@@ -81,7 +81,7 @@ body {
         visibility: hidden;
     }
 
-    .subarticle-mob {
+    .subarticle-mob{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -92,7 +92,7 @@ body {
         position: relative;
         top: -60px;
         left: 10%;
-        /* margin: 0%; */
+        margin: 0%;
 
 
 
