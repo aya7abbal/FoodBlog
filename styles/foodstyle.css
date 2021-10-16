@@ -1,14 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
     color: rgb(43, 43, 43);
     ;
 }
 
 body {
     background: rgb(236, 236, 236);
+    margin: auto;
+    max-width: 100%;
+    max-height: 100vh;
 
+}
+
+i{
+    padding: 0 3px;
+    font-size: .9rem;
 }
 
 .bigp {
@@ -36,12 +44,12 @@ h3 {
 
 
 #navbar {
-    width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 0%;
     padding: 10px;
     background-color: rgba(255, 255, 255, 1);
     z-index: 2;
@@ -72,7 +80,7 @@ h3 {
 
 .links a {
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     color: rgb(143, 143, 143);
     font-size: .9rem;
     font-family: sans-serif;
@@ -108,9 +116,10 @@ h3 {
 /* Home */
 
 #home {
+    width: 100%;
     display: flex;
     background: white;
-    margin: 0 15% 0 15%;
+    margin:auto;
 
 }
 
@@ -137,9 +146,8 @@ h3 {
 
 #articles {
     display: flex;
-    justify-content: center;
-    margin: 0 15% 0;
-
+    flex-direction: row;
+    width: 100%;
 }
 
 .subarticle {
@@ -148,11 +156,12 @@ h3 {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    width: 90%;
+    width: 80%;
     position: relative;
     top: 13%;
     left: 5%;
     z-index: 1;
+
 
 }
 
@@ -160,7 +169,7 @@ h3 {
 .article {
     display: flex;
     flex-direction: column;
-    width: 33.3%;
+    width: 90%;
 }
 
 
