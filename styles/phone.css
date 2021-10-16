@@ -1,4 +1,4 @@
-body{
+body {
     margin: auto;
     width: 100%;
 }
@@ -89,9 +89,11 @@ body{
         padding: 20px;
         text-align: center;
         width: 70%;
-        margin:auto;
         position: relative;
         top: -60px;
+        left: 10%;
+        /* margin: 0%; */
+
 
 
     }
@@ -101,111 +103,111 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 30px;
-        margin-bottom: 0;
+        margin:30px 0;
 
     }
 
 
     .article img {
         width: 100%;
-    }}
-
-    /* BLOGS */
-
-
-    #adblog-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-top: 10px;
-margin:auto;
-width: 100%;
     }
+}
+
+/* BLOGS */
+
+
+#adblog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+}
 
 
 
-    .allblogs {
-        width: 90%;
-        margin:auto;
-        display: flex;
-        flex-direction: column;
-    }
+.allblogs {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
 
-    .react img {
-        margin-right: 10px;
+.react img {
+    margin-right: 10px;
 
-    }
-
-
-    .reactleft {
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-    }
-
-    .reactleft img {
-        width: 8px;
-    }
-
-    .seen {
-
-        display: flex;
-        width: 20%;
-        justify-content: space-between;
-    }
-
-    .com {
-        display: flex;
-    }
-
-    .reactright {
-        display: flex;
-    }
-
-    /* ADS */
+}
 
 
+.reactleft {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
 
+.reactleft img {
+    width: 8px;
+}
 
-    #ads {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+.seen {
 
-    }
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
 
+.com {
+    display: flex;
+}
 
-    .imagead1 {
-        width: 100%;
-    }
+.reactright {
+    display: flex;
+}
 
-    .ad {
-        background-color: white;
-        padding: 40px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 350px;
-        margin: 30px 15px 15px 15px;
-    }
+/* ADS */
 
 
 
 
-    /* FOOTER */
+#ads {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
 
 
-    .social-mobview {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: rgba(255, 255, 255, 1);
-        padding: 10px;
-    }
+.imagead1 {
+    width: 100%;
+}
 
-    .social-mobview img {
-        width: 15px;
-        height: 15px;
-    }
+.ad {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin: 30px 15px 15px 15px;
+}
+
+
+
+
+/* FOOTER */
+
+
+.social-mobview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.social-mobview img {
+    width: 15px;
+    height: 15px;
+}
