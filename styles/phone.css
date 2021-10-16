@@ -75,11 +75,11 @@ width: 90%;
 }
 
 
-/* @media(max-width:426px) {
+@media(max-width:426px) {
     .subarticle {
         display: none;
         visibility: hidden;
-    } */
+    }}
 
     .subarticle-mob{
         display: flex;
@@ -92,7 +92,7 @@ width: 90%;
         position: relative;
         bottom: 60px;
         left: 10%;
-
+z-index: 2;
 
 
     }
