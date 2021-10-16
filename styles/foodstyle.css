@@ -13,7 +13,7 @@ body {
 
 }
 
-i{
+i {
     padding: 0 3px;
     font-size: .9rem;
 }
@@ -47,9 +47,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute; */
-    /* top: 0%; */
-    /* padding: 10px; */
+    position: absolute;
+    padding: 30px 0;
+    top: 0%;
     background-color: rgba(255, 255, 255, 1);
     z-index: 2;
 
@@ -118,7 +118,7 @@ h3 {
     width: 100%;
     display: flex;
     background: white;
-    margin:auto;
+    margin: auto;
 
 }
 
@@ -207,7 +207,7 @@ h3 {
 
 .blogs {
     background-color: white;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .user {
@@ -282,29 +282,29 @@ h3 {
     flex-direction: row;
     width: 30%;
     justify-content: space-between;
-    
+
 }
 
-.seen{
+.seen {
     display: flex;
 
 }
 
-.com{
+.com {
     display: flex;
 }
 
 
 
 
-.reactleft img{
+.reactleft img {
     width: 20px;
     height: 20px;
 
 }
 
 
-.reactright img{
+.reactright img {
     width: 20px;
     height: 20px;
 }
@@ -360,12 +360,12 @@ h3 {
 }
 
 @media(min-width:426px) {
-    .social-mobview{
+    .social-mobview {
         display: none;
         visibility: hidden;
     }
 
-    .subarticle-mob{
+    .subarticle-mob {
         display: none;
         visibility: hidden;
     }
